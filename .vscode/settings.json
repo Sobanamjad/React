@@ -1,0 +1,39 @@
+{
+    "piny.project_settings": {
+        "open-pages": [
+            "pinyfakepage.html"
+        ],
+        "tw-external-config": {},
+        "source-folders": null,
+        "preview-url": "http://localhost:5173",
+        "urls": {
+            "pinyfakepage.html": {
+                "open-page-views": [
+                    {
+                        "w": 320,
+                        "h": 0
+                    }
+                ]
+            }
+        },
+        "component-settings": {
+            "11-form-handling/src/index.css:::Temp": {
+                "black-box": true
+            }
+        },
+        "recent-classes": [
+            "0",
+            "1",
+            "y",
+            "i",
+            "c",
+            "a",
+            "p",
+            "o",
+            "-",
+            "x",
+            "e",
+            "t"
+        ]
+    }
+}

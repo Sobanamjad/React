@@ -2,17 +2,26 @@ import React, { useState } from 'react'
 
 const App = () => {
 
-  const [a, setA] = useState(20)
-  const [username, setUser] = useState('Soban')
+  const [num, setNum] = useState(0)
 
-  function changevalue(){
-    setA(40)
-    setUser('Hana')
+  function increaseNum (){
+    setNum (num+1)
   }
+
+  function decreaseNum (){
+    setNum (num-1)
+  }
+
+  function jump5num (){
+    setNum (num+5)
+  }
+
   return (
     <div>
-      <h1>Value of a is {a} <br /><br />value of user is {username}</h1>
-      <button onClick={changevalue}>Click</button>
+      <h1>{num}</h1>
+      <button onClick={increaseNum}>Increase</button>
+      <button onClick={decreaseNum}>decrease</button>
+      <button onClick={jump5num}>Jump by 5</button>
     </div>
   )
 }

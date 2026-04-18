@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin:0;
+}
+
+.sticky-header{
+    position: sticky;
+    top:0;
+    background-color: #023e02;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #023e02;
+    z-index: 100;
+}
+
+.profile-card{
+    width: 300px;
+    min-height: 380px;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: gold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.profile-card img{
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius:  50%;
+    border: 3px solid #023e02;
+    width: 150px;
+    height: 130x;
+}
+.name{
+    text-align: center;
+    color: #023e02;
+    margin-bottom: 10px;
+}
+.bio{
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.stats{
+    text-align: center;
+}
+.stat{
+    display: inline-block;
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+    background: #dee7de;
+    border-radius: 5px;
+}
+
+.stat h3{
+    color: #023e02;
+    margin-bottom: 5px;
+}
+
+.contact-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #023e02;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    background-color: #005a00;
+}

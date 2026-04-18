@@ -63,7 +63,7 @@ const App = () => {
               className="flex justify-between flex-col items-start realtive h-52 w-40 rounded-xl text-black p-4 bg-[url(https://www.onlygfx.com/wp-content/uploads/2022/03/realistic-notebook-notepage-paper-background-1.png)] bg-cover bg-center">
               <div>
                 <h3 className='leading-tight text-xl font-bold'>{elem.title}</h3>
-                <p className='mt-2 leading-tight font-medium text-gray-500'>{elem.details}</p>
+                <p className='mt-2 leading-tight text-sm font-semibold text-gray-500'>{elem.details}</p>
               </div>
               <button onClick={()=>{
                 deleteNote(idx)
